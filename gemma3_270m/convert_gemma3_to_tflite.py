@@ -22,7 +22,7 @@ from ai_edge_torch.generative.utilities import export_config
 from ai_edge_torch.generative.utilities import loader
 
 flags = converter.define_conversion_flags(
-    'gemma3-1b', default_mask_as_input=True, default_transpose_kv_cache=True
+    'gemma3-270m', default_mask_as_input=True, default_transpose_kv_cache=True
 )
 
 _MODEL_SIZE = flags.DEFINE_string(
